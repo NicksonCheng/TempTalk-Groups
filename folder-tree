@@ -1,0 +1,49 @@
+/project-root
+├── /api
+│   ├── /controllers        # Request handlers/business logic
+│   ├── /models            # Database models/schemas
+│   ├── /routes            # API route definitions
+│   ├── /middleware        # Custom middleware (e.g., auth, logging)
+│   ├── /services          # External services/utilities
+│   ├── /utils             # Helper functions
+│   └── /config            # Config files (e.g., DB, env)
+├── /database
+│   ├── /migrations        # Database migration scripts
+│   ├── /seeds            # Seed data for initial DB population
+│   └── /schemas          # SQL schema definitions
+├── /nginx
+│   ├── nginx.conf        # Main Nginx config
+│   └── /conf.d           # Additional Nginx config snippets
+├── /docker
+│   ├── Dockerfile        # Dockerfile for API app
+│   ├── Dockerfile.nginx  # Dockerfile for Nginx
+│   ├── docker-compose.yml # Docker Compose for local dev
+│   └── .dockerignore     # Files to exclude from Docker builds
+├── /k8s
+│   ├── /deployments
+│   │   ├── api-deployment.yml
+│   │   └── nginx-deployment.yml
+│   ├── /services
+│   │   ├── api-service.yml
+│   │   └── nginx-service.yml
+│   ├── /configmaps
+│   │   └── app-config.yml
+│   └── /secrets
+│       └── db-credentials.yml
+├── /tests
+│   ├── /unit             # Unit tests
+│   ├── /integration      # Integration tests
+│   └── /e2e             # End-to-end tests
+├── /docs
+│   ├── api.md           # API documentation
+│   ├── setup.md         # Project setup guide
+│   └── architecture.md  # Architecture overview
+├── /scripts
+│   ├── setup.sh         # Env setup script
+│   ├── deploy.sh        # Deployment script
+│   └── db-migrate.sh    # DB migration script
+├── .env.example         # Example env variables
+├── .gitignore           # Files to ignore in Git
+├── README.md            # Project overview
+├── package.json         # For Node.js (or equivalent)
+└── requirements.txt     # For Python (or equivalent)

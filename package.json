@@ -1,0 +1,34 @@
+{
+  "name": "temptalk-groups",
+  "version": "1.0.0",
+  "description": "**TempTalk Groups** is a chat platform designed for temporary group conversations. Whether you're organizing a trip, collaborating on a short-term project, or planning an event, create a group with an expiration time — and let it disappear when its purpose is served.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicksonCheng/TempTalk-Groups.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicksonCheng/TempTalk-Groups/issues"
+  },
+  "homepage": "https://github.com/NicksonCheng/TempTalk-Groups#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/nodemon": "^1.19.6",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
